@@ -1,17 +1,21 @@
 //
-//  CPM_visual_Group8App.swift
-//  CPM_visual Group8
+//  CPM_Graphic.swift
+//  CPM_Graphic
 //
-//  Created by Rodrigo Alcoz Meroño on 21/5/24.
+//  Created by 김형관 on 4/2/24.
 //
+// 2024 4월 21일
+
+
 
 import SwiftUI
 
 @main
-struct CPM_visual_Group8App: App {
+struct CPM_Graphic: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Activity.self)
     }
 }
